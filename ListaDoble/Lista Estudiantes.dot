@@ -1,0 +1,11 @@
+digraph G {
+rankdir=LR
+node [shape=box]
+"202010245" [label="202010245 - Esteban Valdez"]
+"202010245" -> "202010254"
+"202010254" [label="202010254 - Cristan Oxlaj"]
+"202010254" -> "202010033"
+"202010254" -> "202010245" [style=dotted]
+"202010033" [label="202010033 - Jose Rodolfo"]
+"202010033" -> "202010254" [style=dotted]
+}
